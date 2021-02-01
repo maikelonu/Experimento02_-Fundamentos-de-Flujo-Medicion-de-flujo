@@ -87,7 +87,7 @@ names(df.base)
 # H0 (null hypothesis): The true probability of success is equal to what we expected
 # H1 (alternative hypothesis): The true probability of success is not equal to what we expected
 # If (p-value > 0.05) the null hypothesis CANNOT be reject
-t.test(df.base$XF, df.base$YR)
+t.test(df.base$YR, df.base$XF)
 
 # A simple deviation (SD) column is created
 df.base$SD <- (df.base$XF - df.base$YR)
