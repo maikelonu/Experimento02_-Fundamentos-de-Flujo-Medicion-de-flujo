@@ -49,7 +49,7 @@ rm(list = ls())
 setwd("/mnt/BACKUP/R_ITC/R_LABHYD/EXP_FLUJO")
 
 # CRAN libraries are loaded
-require(Agreement)
+# require(Agreement)
 require(DescTools)
 require(ggplot2)
 require(MASS)
